@@ -47,8 +47,8 @@
     <p>This video serves as an engaging way to showcase the application’s capabilities and its potential to revolutionize patient-doctor interactions.</p>
     <h2>Screenshots</h2>
     <p><img src="https://github.com/aniruddhss/MEDHACKS2024/blob/main/LOGIN%20PAGE.png" alt="Login Page"><br><em>Login page for user authentication.</em></p>
-    <p><img src="path_to_screenshot2" alt="Upload Page"><br><em>Upload page to submit medical reports for analysis.</em></p>
-    <p><img src="path_to_screenshot3" alt="Patient Dashboard"><br><em>Patient Dashboard showcasing health metrics and AI-analyzed report findings.</em></p>
+    <p><img src="https://github.com/aniruddhss/MEDHACKS2024/blob/main/UPLOAD%20PAGE%202.png" alt="Upload Page"><br><em>Upload page to submit medical reports for analysis.</em></p>
+    <p><img src="https://github.com/aniruddhss/MEDHACKS2024/blob/main/PATIENT%20DASHBOARD.png" alt="Patient Dashboard"><br><em>Patient Dashboard showcasing health metrics and AI-analyzed report findings.</em></p>
     <h2>Future Enhancements</h2>
     <ul>
         <li><strong>Data Encryption and Security</strong>: Implement advanced security measures to ensure patient data privacy.</li>
