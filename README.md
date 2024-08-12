@@ -59,7 +59,7 @@
     <h2>Contact</h2>
     <p>For any queries or suggestions, please contact:</p>
     <ul>
-        <li><strong>Your E-mail:</strong> <a href="mailto:your.email@example.com">aniruddhshrivastava11@gmail.com</a></li>
+        <li><strong>E-mail:</strong> <a href="mailto:your.email@example.com">aniruddhshrivastava11@gmail.com</a></li>
         <li>GitHub: <a href="https://github.com/yourusername">@aniruddhss</a></li>
     </ul>
 </body>
