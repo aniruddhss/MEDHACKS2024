@@ -223,8 +223,94 @@ def without_openai():
 #
 #     # Function to show the dashboard page
 #     def show_dashboard_page():
-#         st.title("Patient Dashboard")
-#         st.write("Visualize your health data here.")
+#         st.markdown(
+            #     """
+            #     <style>
+            #     .main .block-container {
+            #         padding-top: 1rem;
+            #         padding-right: 1rem;
+            #         padding-left: 1rem;
+            #         padding-bottom: 1rem;
+            #         max-width: 100%;
+            #     }
+            #     </style>
+            #     """,
+            #     unsafe_allow_html=True
+            # )
+            # st.title("Patient Dashboard")
+            
+            # col1, col2, col3 = st.columns([1, 2, 1])
+            
+            # # Column 1: Personal Information
+            # with col1:
+            #     st.header("Personal Information")
+            #     st.write("**Name:** Ankit Tiwari")
+            #     st.write("**Age:** 45")
+            #     st.write("**Gender:** Male")
+            #     st.write("**Blood Type:** O+")
+            
+            #     st.header("Illnesses")
+            #     st.write("- Hypertension")
+            #     st.write("- Type 2 Diabetes")
+            
+            #     st.header("Current Medications")
+            #     st.write("- Metformin 20 mg OD")
+            #     st.write("- Lisinopril 5 MG BD")
+            
+            #     st.header("Allergies")
+            #     st.write("- Penicillin")
+            #     st.write("- Peanuts")
+            
+            # with col2:
+            #     st.header("Health Reports Over Time")
+            
+            #     # Sample data for the graphs (replace with real data)
+            #     dates = pd.date_range("2023-01-01", periods=12, freq='M')
+            #     blood_pressure = [120, 125, 130, 128, 135, 140, 138, 145, 142, 140, 138, 136]
+            #     glucose_levels = [90, 92, 95, 100, 105, 110, 112, 115, 118, 120, 125, 130]
+            #     cholesterol = [180, 185, 190, 195, 200, 205, 210, 215, 220, 225, 230, 235]
+            #     weight = [70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81]
+            
+            #     df_blood_pressure = pd.DataFrame({'Date': dates, 'Blood Pressure': blood_pressure})
+            #     df_glucose_levels = pd.DataFrame({'Date': dates, 'Glucose Levels': glucose_levels})
+            #     df_cholesterol = pd.DataFrame({'Date': dates, 'Cholesterol': cholesterol})
+            #     df_weight = pd.DataFrame({'Date': dates, 'Weight': weight})
+            
+            #     # Display graphs in a 2x2 grid
+            #     col21, col22 = st.columns(2)
+            
+            #     with col21:
+            #         st.subheader("Blood Pressure Over Time")
+            #         st.area_chart(df_blood_pressure.set_index('Date'))
+            
+            #         st.subheader("Glucose Levels Over Time")
+            #         st.bar_chart(df_glucose_levels.set_index('Date'))
+            
+            #     with col22:
+            #         st.subheader("Cholesterol Over Time")
+            #         st.line_chart(df_cholesterol.set_index('Date'))
+            
+            #         st.subheader("Weight Over Time")
+            #         st.vega_lite_chart(df_weight, {
+            #             'mark': 'point',
+            #             'encoding': {
+            #                 'x': {'field': 'Date', 'type': 'temporal'},
+            #                 'y': {'field': 'Weight', 'type': 'quantitative'}
+            #             }
+            #         })
+            
+            # # Column 3: Key Findings from Latest Report
+            # with col3:
+            #     st.header("Key Findings from Latest Report")
+            #     st.write("**Date of Report:** August 8, 2024")
+            #     st.write("**Blood Pressure:** 136/85 mmHg")
+            #     st.write("**Glucose Levels:** 130 mg/dL")
+            #     st.write("**Cholesterol:** 235 mg/dL")
+            #     st.write("**Weight:** 81 kg")
+            #     st.write(
+            #         "**Summary:** The patient shows elevated glucose levels and cholesterol, with blood pressure stabilizing but still slightly above the normal range. Continue monitoring and adjust medications as needed.")
+
+
 #
 #         if st.session_state['report_summary']:
 #             st.subheader("Report Summary")
