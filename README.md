@@ -24,18 +24,8 @@
         <li><strong>Data Storage</strong>: Historical key findings are stored for long-term tracking and analysis.</li>
         <li><strong>Future AI Research</strong>: Accumulated data can be used to train machine learning models, contributing to advancements in medical AI.</li>
     </ul>
-    <h2>PowerPoint and Video Representation</h2>
-    <p>To effectively demonstrate the functionalities and potential of this prototype, a PowerPoint presentation and video walkthrough have been prepared:</p>
-    <h3>PowerPoint Presentation</h3>
-    <p>The PowerPoint presentation covers the following aspects of the project:</p>
-    <ul>
-        <li><strong>Introduction</strong>: Overview of the Health Dashboard Prototype and its purpose.</li>
-        <li><strong>Features</strong>: Detailed explanation of key features, including user authentication, report analysis, and data visualization.</li>
-        <li><strong>Technology Stack</strong>: Information on the technologies used in developing the application.</li>
-        <li><strong>Use Cases</strong>: Scenarios where the dashboard can be beneficial in real-world healthcare settings.</li>
-        <li><strong>Future Enhancements</strong>: Ideas for future improvements and integration with advanced technologies.</li>
-    </ul>
-    <p>The presentation is designed to provide a clear and concise understanding of the project to stakeholders and potential users.</p>
+    <h2>Video Representation</h2>
+    <p>To effectively demonstrate the functionalities and potential of this prototype, a video walkthrough have been prepared:</p>
     <h3>Video Walkthrough</h3>
     <p>The video walkthrough includes:</p>
     <ul>
