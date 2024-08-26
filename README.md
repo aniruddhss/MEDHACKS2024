@@ -46,6 +46,11 @@
         <li><strong>Multi-User Access</strong>: Expand the system to handle multiple users with different access levels.</li>
         <li><strong>Mobile Compatibility</strong>: Optimize the dashboard for mobile devices.</li>
         <li><strong>Real-Time Monitoring</strong>: Integrate real-time health monitoring through IoT devices.</li>
+    </ul>
+     <h2>Note:</h2>
+        <ul>
+            <li>Due to licensing issues, the OpenAI functionality has been commented out.</li>
+        </ul>
     <h2>Contact</h2>
     <p>For any queries or suggestions, please contact:</p>
     <ul>
